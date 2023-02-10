@@ -6,6 +6,7 @@ public class Main {
         // Llamar a la clase para comparar cadenas de texto
         cadenaContiene.main(null);
         System.out.println("");
+        // Llamar a la clase para mostrar estructura de ficheros
         estructuraCompleta.main(null);
 
     }
