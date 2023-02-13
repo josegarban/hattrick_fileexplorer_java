@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class estructuraCompleta {
+public class buscar {
     static String nombreFichero = "";
     public static File carpeta = new File("genomas");
 
@@ -29,7 +29,7 @@ public class estructuraCompleta {
                         boolean contieneSubcadena = cadenaContiene.cadenaContiene(contenidoFichero, subcadena);
                         if (contieneSubcadena){
                             System.out.println("Fichero: " + nombreFicheroCompleto);
-                            //System.out.println(contenidoFichero);
+                            System.out.println(contenidoFichero);
                         }
                     }
                 }
